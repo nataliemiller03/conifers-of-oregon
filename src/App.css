@@ -1,8 +1,19 @@
-html {
-  color-scheme: light dark;
-  font-family: system-ui;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+
+.options {
+    display: flex;
+    gap: 15px;
+}
+
+.optionButton {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
 }

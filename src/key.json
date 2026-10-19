@@ -1,0 +1,96 @@
+[
+    {
+        "id": "1",
+        "options": [
+            {
+                "id": "1a",
+                "title": "needle-like leaves",
+                "destination": "2",
+                "is_final": false,
+                "img": "needles"
+            },
+            {
+                "id": "1b",
+                "title": "scale-like leaves",
+                "hint": "leaves are flattened and overlapping",
+                "destination": "3",
+                "is_final": false,
+                "img": "scales"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "options": [
+            {
+                "id": "2a",
+                "title": "needles clustered",
+                "destination": "4",
+                "is_final": false,
+                "img": "bundles"
+            },
+            {
+                "id": "2b",
+                "title": "needles not clustered",
+                "destination": "5",
+                "is_final": false,
+                "img": "single"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "options": [
+            {
+                "id": "3a",
+                "title": "all leaves short and sharp",
+                "destination": "giant_sequoia",
+                "is_final": true,
+                "img": "sequoia"
+            },
+            {
+                "id": "3b",
+                "title": "some leaves not sharp",
+                "destination": "6",
+                "is_final": false
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "options": [
+            {
+                "id": "4a",
+                "title": "clusters of 2-5 needles",
+                "destination": "pine",
+                "is_final": true,
+                "img": "bundles"
+            },
+            {
+                "id": "4b",
+                "title": "clusters greater than 10",
+                "destination": "7",
+                "is_final": false,
+                "img": "ten_needles"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "options": [
+            {
+                "id": "5a",
+                "title": "needles short and sharp",
+                "destination": "giant_sequoia",
+                "is_final": true,
+                "img": "sequoia"
+            },
+            {
+                "id": "5b",
+                "title": "needles longer than 1/2\"",
+                "destination": "8",
+                "is_final": false
+            }
+        ]
+    }
+]
