@@ -89,7 +89,197 @@
                 "id": "5b",
                 "title": "needles longer than 1/2\"",
                 "destination": "8",
+                "is_final": false,
+                "img": "soft_needles"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "options": [
+            {
+                "id": "6a",
+                "title": "cones round",
+                "destination": "9",
                 "is_final": false
+            },
+            {
+                "id": "6b",
+                "title": "cones not round",
+                "destination": "10",
+                "is_final": false
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "options": [
+            {
+                "id": "7a",
+                "title": "needles soft & deciduous",
+                "help": "deciduous refers to needles or leaves that fall off annually and regrow",
+                "destination": "larch",
+                "is_final": true,
+                "img": "soft_needles"
+            },
+            {
+                "id": "7b",
+                "title": "needles stiff & evergreen",
+                "destination": "true_cedar",
+                "is_final": true
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "options": [
+            {
+                "id": "8a",
+                "title": "tiny pegs on twigs",
+                "destination": "11",
+                "is_final": false
+            },
+            {
+                "id": "8b",
+                "title": "no tiny pegs on twigs",
+                "destination": "12",
+                "is_final": false
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "options": [
+            {
+                "id": "9a",
+                "title": "mature cones small and leathery, green or blue",
+                "destination": "juniper",
+                "is_final": true
+            },
+            {
+                "id": "9b",
+                "title": "mature cones woody",
+                "destination": "13",
+                "is_final": false
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "options": [
+            {
+                "id": "10a",
+                "title": "cones resemble rosebuds",
+                "destination": "redcedar_arborvitae",
+                "is_final": true
+            },
+            {
+                "id": "10b",
+                "title": "cones resemble duck's bill",
+                "destination": "incense_cedar",
+                "is_final": true
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "options": [
+            {
+                "id": "11a",
+                "title": "pegs square, needles sharp",
+                "destination": "spruce",
+                "is_final": true
+            },
+            {
+                "id": "11b",
+                "title": "pegs rounded, needles blunt",
+                "destination": "hemlock",
+                "is_final": true
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "options": [
+            {
+                "id": "12a",
+                "title": "buds large and pointed",
+                "destination": "douglas_fir",
+                "is_final": true
+            },
+            {
+                "id": "12b",
+                "title": "buds small and rounded?",
+                "destination": "14",
+                "is_final": false
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "options": [
+            {
+                "id": "13a",
+                "title": "cones under 1/2 inch diameter",
+                "destination": "white_cedar_alaska_cedar",
+                "is_final": true
+            },
+            {
+                "id": "13b",
+                "title": "cones over 1/2 inch diameter",
+                "destination": "cypress",
+                "is_final": true
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "options": [
+            {
+                "id": "14a",
+                "title": "terminal buds round and clustered",
+                "destination": "true_fir",
+                "is_final": true
+            },
+            {
+                "id": "14b",
+                "title": "terminal buds not clustered",
+                "destination": "15",
+                "is_final": false
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "options": [
+            {
+                "id": "15a",
+                "title": "needles white underneath",
+                "destination": "16",
+                "is_final": false
+            },
+            {
+                "id": "15b",
+                "title": "needles green underneath",
+                "destination": "yew",
+                "is_final": true
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "options": [
+            {
+                "id": "16a",
+                "title": "needles pointed",
+                "destination": "redwood",
+                "is_final": true
+            },
+            {
+                "id": "16b",
+                "title": "needles blunt",
+                "destination": "hemlock",
+                "is_final": true
             }
         ]
     }

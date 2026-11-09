@@ -7,3 +7,10 @@
     padding: 7px 15px;
     color: #344e41;
 }
+
+.imageWrapper {
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    background-color: #344e41;
+}

@@ -2,12 +2,81 @@
     {
         "id": "pine",
         "common": "Pine",
-        "scientific": "Pinus",
-        "description": "Here is some info about pines"
+        "scientific": "Pinus"
     },
     {
         "id": "giant_sequoia",
         "scientific": "Sequoiadendron giganteum",
         "common": "Giant Sequoia"
+    },
+    {
+        "id": "larch",
+        "scientific": "Larix",
+        "common": "Larch"
+    },
+    {
+        "id": "true_cedar",
+        "scientific": "Cedrus",
+        "common": "True Cedar"
+    },
+    {
+        "id": "juniper",
+        "scientific": "Juniperus",
+        "common": "Juniper"
+    },
+    {
+        "id": "redcedar_arborvitae",
+        "scientific": "Thuja",
+        "common": "Redcedar/Arborvitae"
+    },
+    {
+        "id": "incense_cedar",
+        "scientific": "Calocedrus",
+        "common": "Incense-cedar"
+    },
+    {
+        "id": "spruce",
+        "scientific": "Picea",
+        "common": "Spruce"
+    },
+    {
+        "id": "hemlock",
+        "scientific": "Tsuga",
+        "common": "Hemlock"
+    },
+    {
+        "id": "douglas_fir",
+        "scientific": "Pseudotsuga",
+        "common": "Douglas-fir"
+    },
+    {
+        "id": "white_cedar_alaska_cedar",
+        "scientific": "",
+        "common": "White Cedar/Alaska Cedar"
+    },
+    {
+        "id": "cypress",
+        "scientific": "",
+        "common": "Cypress"
+    },
+    {
+        "id": "true_fir",
+        "scientific": "",
+        "common": "True Fir"
+    },
+    {
+        "id": "yew",
+        "scientific": "",
+        "common": "Yew"
+    },
+    {
+        "id": "redwood",
+        "scientific": "",
+        "common": "Redwood"
+    },
+    {
+        "id": "hemlock",
+        "scientific": "",
+        "common": "Hemlock"
     }
 ]

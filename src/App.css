@@ -52,3 +52,9 @@ html, body {
     padding: 0;
     margin: 0;
 }
+
+@media (width < 700px) {
+    .options {
+        flex-direction: column;
+    }
+}

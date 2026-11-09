@@ -54,7 +54,7 @@ export function App() {
   if (currentResult) {
     return (
       <>
-        <h1 className="pageTitle libreBodoni">That's probably a {currentResult.common}</h1>
+        <h1 className="pageTitle libreBodoni">You're looking at a {currentResult.common}</h1>
         {currentResult.scientific && <h2 className="subtitle libreBodoni italic">({currentResult.scientific})</h2>}
         {currentResult.description && <p>{currentResult.description}</p>}
       </>

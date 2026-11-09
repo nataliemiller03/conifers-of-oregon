@@ -7,7 +7,9 @@ export function OptionComponent({ title, destination, is_final, img}: Option) {
     const resolvedImage = img && imageKey[img as keyof typeof imageKey] || undefined;
   return (
     <div className="option">
+        <div className="imageWrapper">
         {resolvedImage && <img src={resolvedImage} />}
+        </div>
         <h3 className="optionTitle">{title}</h3>
     </div>
   );
