@@ -1,5 +1,6 @@
 // import './App.css';
 import keyData from './key.json';
+import resultsData from './results.json'
 import { useEffect, useState } from "react";
 import { OptionComponent } from './components/Option';
 import './App.css';
@@ -36,20 +37,36 @@ export function App() {
   const getKeyDataById = (id: string) =>
     keyData.find(item => item.id === id);
 
-  const currentStep = getKeyDataById(step);
+  const getResultDataById = (id: string) => 
+    resultsData.find(item => item.id === id);
 
-  if (!currentStep) {
+  const currentStep = getKeyDataById(step);
+  const currentResult = getResultDataById(step);
+
+  if (!currentStep && !currentResult) {
     return (
       <main>
-        <h1>Conifers of Oregon</h1>
+        <h1>You've caught me cleanin'</h1>
       </main>
     );
   }
+
+  if (currentResult) {
+    return (
+      <>
+        <h1 className="pageTitle libreBodoni">That's probably a {currentResult.common}</h1>
+        {currentResult.scientific && <h2 className="subtitle libreBodoni italic">({currentResult.scientific})</h2>}
+        {currentResult.description && <p>{currentResult.description}</p>}
+      </>
+    );
+  }
+
   return (
     <div className="container">
-      <h1>Conifers of Oregon</h1>
+      <h1 className="pageTitle libreBodoni">Conifers of Oregon</h1>
+      <h2 className="subtitle libreBodoni">What do you see?</h2>
       <div className="options">
-        {currentStep.options.map(option => (
+        {currentStep && currentStep.options.map(option => (
           <button
             className="optionButton"
             key={option.id}

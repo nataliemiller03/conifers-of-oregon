@@ -1,0 +1,13 @@
+[
+    {
+        "id": "pine",
+        "common": "Pine",
+        "scientific": "Pinus",
+        "description": "Here is some info about pines"
+    },
+    {
+        "id": "giant_sequoia",
+        "scientific": "Sequoiadendron giganteum",
+        "common": "Giant Sequoia"
+    }
+]

@@ -8,7 +8,7 @@ export function OptionComponent({ title, destination, is_final, img}: Option) {
   return (
     <div className="option">
         {resolvedImage && <img src={resolvedImage} />}
-        <h2 className="optionTitle">{title}</h2>
+        <h3 className="optionTitle">{title}</h3>
     </div>
   );
 }
