@@ -7,6 +7,13 @@
   padding: 7px 15px;
 }
 
+.imageWrapper {
+  background-color: #344e41;
+  min-width: 300px;
+  min-height: 300px;
+  max-height: 300px;
+}
+
 html, body {
   background-color: #3a5a40;
 }
@@ -60,5 +67,11 @@ html, body {
   margin: 0;
   padding: 0;
   display: flex;
+}
+
+@media (width < 700px) {
+  .options {
+    flex-direction: column;
+  }
 }
 /*# sourceMappingURL=conifers-of-oregon.9f367d21.css.map */

@@ -19121,7 +19121,7 @@ function App() {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 className: "pageTitle libreBodoni",
                 children: [
-                    "That's probably a ",
+                    "You're looking at a ",
                     currentResult.common
                 ]
             }, void 0, true, {
@@ -19208,7 +19208,116 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./key.json":"k1Svq","react":"jMk1U","./components/Option":"6W7ns","./App.css":"6n0o6","./results.json":"63pjB"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./key.json":"k1Svq","./results.json":"63pjB","react":"jMk1U","./components/Option":"6W7ns","./App.css":"6n0o6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"k1Svq":[function(require,module,exports,__globalThis) {
+module.exports = JSON.parse("[{\"id\":\"1\",\"options\":[{\"id\":\"1a\",\"title\":\"needle-like leaves\",\"destination\":\"2\",\"is_final\":false,\"img\":\"needles\"},{\"id\":\"1b\",\"title\":\"scale-like leaves\",\"hint\":\"leaves are flattened and overlapping\",\"destination\":\"3\",\"is_final\":false,\"img\":\"scales\"}]},{\"id\":\"2\",\"options\":[{\"id\":\"2a\",\"title\":\"needles clustered\",\"destination\":\"4\",\"is_final\":false,\"img\":\"bundles\"},{\"id\":\"2b\",\"title\":\"needles not clustered\",\"destination\":\"5\",\"is_final\":false,\"img\":\"single\"}]},{\"id\":\"3\",\"options\":[{\"id\":\"3a\",\"title\":\"all leaves short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"3b\",\"title\":\"some leaves not sharp\",\"destination\":\"6\",\"is_final\":false}]},{\"id\":\"4\",\"options\":[{\"id\":\"4a\",\"title\":\"clusters of 2-5 needles\",\"destination\":\"pine\",\"is_final\":true,\"img\":\"bundles\"},{\"id\":\"4b\",\"title\":\"clusters greater than 10\",\"destination\":\"7\",\"is_final\":false,\"img\":\"ten_needles\"}]},{\"id\":\"5\",\"options\":[{\"id\":\"5a\",\"title\":\"needles short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"5b\",\"title\":\"needles longer than 1/2\\\"\",\"destination\":\"8\",\"is_final\":false,\"img\":\"soft_needles\"}]},{\"id\":\"6\",\"options\":[{\"id\":\"6a\",\"title\":\"cones round\",\"destination\":\"9\",\"is_final\":false},{\"id\":\"6b\",\"title\":\"cones not round\",\"destination\":\"10\",\"is_final\":false}]},{\"id\":\"7\",\"options\":[{\"id\":\"7a\",\"title\":\"needles soft & deciduous\",\"help\":\"deciduous refers to needles or leaves that fall off annually and regrow\",\"destination\":\"larch\",\"is_final\":true,\"img\":\"soft_needles\"},{\"id\":\"7b\",\"title\":\"needles stiff & evergreen\",\"destination\":\"true_cedar\",\"is_final\":true}]},{\"id\":\"8\",\"options\":[{\"id\":\"8a\",\"title\":\"tiny pegs on twigs\",\"destination\":\"11\",\"is_final\":false},{\"id\":\"8b\",\"title\":\"no tiny pegs on twigs\",\"destination\":\"12\",\"is_final\":false}]},{\"id\":\"9\",\"options\":[{\"id\":\"9a\",\"title\":\"mature cones small and leathery, green or blue\",\"destination\":\"juniper\",\"is_final\":true},{\"id\":\"9b\",\"title\":\"mature cones woody\",\"destination\":\"13\",\"is_final\":false}]},{\"id\":\"10\",\"options\":[{\"id\":\"10a\",\"title\":\"cones resemble rosebuds\",\"destination\":\"redcedar_arborvitae\",\"is_final\":true},{\"id\":\"10b\",\"title\":\"cones resemble duck's bill\",\"destination\":\"incense_cedar\",\"is_final\":true}]},{\"id\":\"11\",\"options\":[{\"id\":\"11a\",\"title\":\"pegs square, needles sharp\",\"destination\":\"spruce\",\"is_final\":true},{\"id\":\"11b\",\"title\":\"pegs rounded, needles blunt\",\"destination\":\"hemlock\",\"is_final\":true}]},{\"id\":\"12\",\"options\":[{\"id\":\"12a\",\"title\":\"buds large and pointed\",\"destination\":\"douglas_fir\",\"is_final\":true},{\"id\":\"12b\",\"title\":\"buds small and rounded?\",\"destination\":\"14\",\"is_final\":false}]},{\"id\":\"13\",\"options\":[{\"id\":\"13a\",\"title\":\"cones under 1/2 inch diameter\",\"destination\":\"white_cedar_alaska_cedar\",\"is_final\":true},{\"id\":\"13b\",\"title\":\"cones over 1/2 inch diameter\",\"destination\":\"cypress\",\"is_final\":true}]},{\"id\":\"14\",\"options\":[{\"id\":\"14a\",\"title\":\"terminal buds round and clustered\",\"destination\":\"true_fir\",\"is_final\":true},{\"id\":\"14b\",\"title\":\"terminal buds not clustered\",\"destination\":\"15\",\"is_final\":false}]},{\"id\":\"15\",\"options\":[{\"id\":\"15a\",\"title\":\"needles white underneath\",\"destination\":\"16\",\"is_final\":false},{\"id\":\"15b\",\"title\":\"needles green underneath\",\"destination\":\"yew\",\"is_final\":true}]},{\"id\":\"16\",\"options\":[{\"id\":\"16a\",\"title\":\"needles pointed\",\"destination\":\"redwood\",\"is_final\":true},{\"id\":\"16b\",\"title\":\"needles blunt\",\"destination\":\"hemlock\",\"is_final\":true}]}]");
+
+},{}],"63pjB":[function(require,module,exports,__globalThis) {
+module.exports = JSON.parse("[{\"id\":\"pine\",\"common\":\"Pine\",\"scientific\":\"Pinus\"},{\"id\":\"giant_sequoia\",\"scientific\":\"Sequoiadendron giganteum\",\"common\":\"Giant Sequoia\"},{\"id\":\"larch\",\"scientific\":\"Larix\",\"common\":\"Larch\"},{\"id\":\"true_cedar\",\"scientific\":\"Cedrus\",\"common\":\"True Cedar\"},{\"id\":\"juniper\",\"scientific\":\"Juniperus\",\"common\":\"Juniper\"},{\"id\":\"redcedar_arborvitae\",\"scientific\":\"Thuja\",\"common\":\"Redcedar/Arborvitae\"},{\"id\":\"incense_cedar\",\"scientific\":\"Calocedrus\",\"common\":\"Incense-cedar\"},{\"id\":\"spruce\",\"scientific\":\"Picea\",\"common\":\"Spruce\"},{\"id\":\"hemlock\",\"scientific\":\"Tsuga\",\"common\":\"Hemlock\"},{\"id\":\"douglas_fir\",\"scientific\":\"Pseudotsuga\",\"common\":\"Douglas-fir\"},{\"id\":\"white_cedar_alaska_cedar\",\"scientific\":\"\",\"common\":\"White Cedar/Alaska Cedar\"},{\"id\":\"cypress\",\"scientific\":\"\",\"common\":\"Cypress\"},{\"id\":\"true_fir\",\"scientific\":\"\",\"common\":\"True Fir\"},{\"id\":\"yew\",\"scientific\":\"\",\"common\":\"Yew\"},{\"id\":\"redwood\",\"scientific\":\"\",\"common\":\"Redwood\"},{\"id\":\"hemlock\",\"scientific\":\"\",\"common\":\"Hemlock\"}]");
+
+},{}],"6W7ns":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$5363 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$5363.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5363.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "OptionComponent", ()=>OptionComponent);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _images = require("../images");
+var _optionCss = require("./Option.css");
+function OptionComponent({ title, destination, is_final, img }) {
+    const resolvedImage = img && (0, _images.imageKey)[img] || undefined;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "option",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "imageWrapper",
+                children: resolvedImage && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: resolvedImage
+                }, void 0, false, {
+                    fileName: "src/components/Option.tsx",
+                    lineNumber: 11,
+                    columnNumber: 27
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/Option.tsx",
+                lineNumber: 10,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                className: "optionTitle",
+                children: title
+            }, void 0, false, {
+                fileName: "src/components/Option.tsx",
+                lineNumber: 13,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Option.tsx",
+        lineNumber: 9,
+        columnNumber: 5
+    }, this);
+}
+_c = OptionComponent;
+var _c;
+$RefreshReg$(_c, "OptionComponent");
+
+  $parcel$ReactRefreshHelpers$5363.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","../images":"5JreO","./Option.css":"hDZcd","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"5JreO":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "imageKey", ()=>imageKey);
+var _needlesJpg = require("url:./img/needles.jpg");
+var _needlesJpgDefault = parcelHelpers.interopDefault(_needlesJpg);
+var _scalesJpg = require("url:./img/scales.jpg");
+var _scalesJpgDefault = parcelHelpers.interopDefault(_scalesJpg);
+var _bundlesPng = require("url:./img/bundles.png");
+var _bundlesPngDefault = parcelHelpers.interopDefault(_bundlesPng);
+var _singleNeedlesPng = require("url:./img/single_needles.png");
+var _singleNeedlesPngDefault = parcelHelpers.interopDefault(_singleNeedlesPng);
+var _tenNeedlesPng = require("url:./img/ten_needles.png");
+var _tenNeedlesPngDefault = parcelHelpers.interopDefault(_tenNeedlesPng);
+var _sequoiaPng = require("url:./img/sequoia.png");
+var _sequoiaPngDefault = parcelHelpers.interopDefault(_sequoiaPng);
+var _softNeedlesPng = require("url:./img/soft_needles.png");
+var _softNeedlesPngDefault = parcelHelpers.interopDefault(_softNeedlesPng);
+const imageKey = {
+    "needles": (0, _needlesJpgDefault.default),
+    "scales": (0, _scalesJpgDefault.default),
+    "bundles": (0, _bundlesPngDefault.default),
+    "single": (0, _singleNeedlesPngDefault.default),
+    "ten_needles": (0, _tenNeedlesPngDefault.default),
+    "sequoia": (0, _sequoiaPngDefault.default),
+    "soft_needles": (0, _softNeedlesPngDefault.default)
+};
+
+},{"url:./img/needles.jpg":"82l7s","url:./img/scales.jpg":"jBJJY","url:./img/bundles.png":"jlO73","url:./img/single_needles.png":"jCRmI","url:./img/ten_needles.png":"7Sl2d","url:./img/sequoia.png":"c9cC9","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:./img/soft_needles.png":"jIzHZ"}],"82l7s":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("needles.d1f9618b.jpg") + "?" + Date.now();
+
+},{}],"jBJJY":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("scales.064e5759.jpg") + "?" + Date.now();
+
+},{}],"jlO73":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("bundles.e4e5a060.png") + "?" + Date.now();
+
+},{}],"jCRmI":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("single_needles.30e29e14.png") + "?" + Date.now();
+
+},{}],"7Sl2d":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("ten_needles.a61644d8.png") + "?" + Date.now();
+
+},{}],"c9cC9":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("sequoia.aa2126e8.png") + "?" + Date.now();
+
+},{}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -19238,7 +19347,10 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
+},{}],"jIzHZ":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("soft_needles.289f3ca0.png") + "?" + Date.now();
+
+},{}],"hDZcd":[function() {},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -21516,105 +21628,6 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"k1Svq":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse("[{\"id\":\"1\",\"options\":[{\"id\":\"1a\",\"title\":\"needle-like leaves\",\"destination\":\"2\",\"is_final\":false,\"img\":\"needles\"},{\"id\":\"1b\",\"title\":\"scale-like leaves\",\"hint\":\"leaves are flattened and overlapping\",\"destination\":\"3\",\"is_final\":false,\"img\":\"scales\"}]},{\"id\":\"2\",\"options\":[{\"id\":\"2a\",\"title\":\"needles clustered\",\"destination\":\"4\",\"is_final\":false,\"img\":\"bundles\"},{\"id\":\"2b\",\"title\":\"needles not clustered\",\"destination\":\"5\",\"is_final\":false,\"img\":\"single\"}]},{\"id\":\"3\",\"options\":[{\"id\":\"3a\",\"title\":\"all leaves short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"3b\",\"title\":\"some leaves not sharp\",\"destination\":\"6\",\"is_final\":false}]},{\"id\":\"4\",\"options\":[{\"id\":\"4a\",\"title\":\"clusters of 2-5 needles\",\"destination\":\"pine\",\"is_final\":true,\"img\":\"bundles\"},{\"id\":\"4b\",\"title\":\"clusters greater than 10\",\"destination\":\"7\",\"is_final\":false,\"img\":\"ten_needles\"}]},{\"id\":\"5\",\"options\":[{\"id\":\"5a\",\"title\":\"needles short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"5b\",\"title\":\"needles longer than 1/2\\\"\",\"destination\":\"8\",\"is_final\":false}]}]");
-
-},{}],"6W7ns":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$5363 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$5363.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5363.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "OptionComponent", ()=>OptionComponent);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _images = require("../images");
-var _optionCss = require("./Option.css");
-function OptionComponent({ title, destination, is_final, img }) {
-    const resolvedImage = img && (0, _images.imageKey)[img] || undefined;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "option",
-        children: [
-            resolvedImage && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: resolvedImage
-            }, void 0, false, {
-                fileName: "src/components/Option.tsx",
-                lineNumber: 10,
-                columnNumber: 27
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                className: "optionTitle",
-                children: title
-            }, void 0, false, {
-                fileName: "src/components/Option.tsx",
-                lineNumber: 11,
-                columnNumber: 9
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Option.tsx",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
-}
-_c = OptionComponent;
-var _c;
-$RefreshReg$(_c, "OptionComponent");
-
-  $parcel$ReactRefreshHelpers$5363.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../images":"5JreO","./Option.css":"hDZcd"}],"5JreO":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "imageKey", ()=>imageKey);
-var _needlesJpg = require("url:./img/needles.jpg");
-var _needlesJpgDefault = parcelHelpers.interopDefault(_needlesJpg);
-var _scalesJpg = require("url:./img/scales.jpg");
-var _scalesJpgDefault = parcelHelpers.interopDefault(_scalesJpg);
-var _bundlesPng = require("url:./img/bundles.png");
-var _bundlesPngDefault = parcelHelpers.interopDefault(_bundlesPng);
-var _singleNeedlesPng = require("url:./img/single_needles.png");
-var _singleNeedlesPngDefault = parcelHelpers.interopDefault(_singleNeedlesPng);
-var _tenNeedlesPng = require("url:./img/ten_needles.png");
-var _tenNeedlesPngDefault = parcelHelpers.interopDefault(_tenNeedlesPng);
-var _sequoiaPng = require("url:./img/sequoia.png");
-var _sequoiaPngDefault = parcelHelpers.interopDefault(_sequoiaPng);
-const imageKey = {
-    "needles": (0, _needlesJpgDefault.default),
-    "scales": (0, _scalesJpgDefault.default),
-    "bundles": (0, _bundlesPngDefault.default),
-    "single": (0, _singleNeedlesPngDefault.default),
-    "ten_needles": (0, _tenNeedlesPngDefault.default),
-    "sequoia": (0, _sequoiaPngDefault.default)
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:./img/needles.jpg":"82l7s","url:./img/scales.jpg":"jBJJY","url:./img/bundles.png":"jlO73","url:./img/single_needles.png":"jCRmI","url:./img/ten_needles.png":"7Sl2d","url:./img/sequoia.png":"c9cC9"}],"82l7s":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("needles.d1f9618b.jpg") + "?" + Date.now();
-
-},{}],"jBJJY":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("scales.064e5759.jpg") + "?" + Date.now();
-
-},{}],"jlO73":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("bundles.e4e5a060.png") + "?" + Date.now();
-
-},{}],"jCRmI":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("single_needles.30e29e14.png") + "?" + Date.now();
-
-},{}],"7Sl2d":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("ten_needles.a61644d8.png") + "?" + Date.now();
-
-},{}],"c9cC9":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("sequoia.aa2126e8.png") + "?" + Date.now();
-
-},{}],"hDZcd":[function() {},{}],"6n0o6":[function() {},{}],"63pjB":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse("[{\"id\":\"pine\",\"common\":\"Pine\",\"scientific\":\"Pinus\",\"description\":\"Here is some info about pines\"},{\"id\":\"giant_sequoia\",\"scientific\":\"Sequoiadendron giganteum\",\"common\":\"Giant Sequoia\"}]");
-
-},{}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6n0o6":[function() {},{}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=conifers-of-oregon.6efbc4f8.js.map
