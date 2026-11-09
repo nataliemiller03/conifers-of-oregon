@@ -1,11 +1,14 @@
 {
   "name": "parcel-react-client-starter",
+  "homepage": "https://nataliecmiller.com/conifers-of-oregon",
   "private": true,
   "version": "0.0.0",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy": "parcel build src/index.html --public-url /conifers-of-oregon/",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -15,6 +18,7 @@
     "@parcel/transformer-sass": "^2.16.4",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "gh-pages": "^6.3.0",
     "parcel": "^2.14.0"
   }
 }
