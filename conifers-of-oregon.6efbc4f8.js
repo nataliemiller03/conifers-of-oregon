@@ -19075,6 +19075,7 @@ var _resultsJson = require("./results.json");
 var _resultsJsonDefault = parcelHelpers.interopDefault(_resultsJson);
 var _react = require("react");
 var _option = require("./components/Option");
+var _results = require("./components/results");
 var _appCss = require("./App.css");
 var _s = $RefreshSig$();
 function readStepFromUrl() {
@@ -19108,65 +19109,67 @@ function App() {
             children: "You've caught me cleanin'"
         }, void 0, false, {
             fileName: "src/App.tsx",
-            lineNumber: 49,
+            lineNumber: 50,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "src/App.tsx",
-        lineNumber: 48,
+        lineNumber: 49,
         columnNumber: 7
     }, this);
-    if (currentResult) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "pageTitle libreBodoni",
-                children: [
-                    "You're looking at a ",
-                    currentResult.common
-                ]
-            }, void 0, true, {
-                fileName: "src/App.tsx",
-                lineNumber: 57,
-                columnNumber: 9
-            }, this),
-            currentResult.scientific && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                className: "subtitle libreBodoni italic",
-                children: [
-                    "(",
-                    currentResult.scientific,
-                    ")"
-                ]
-            }, void 0, true, {
-                fileName: "src/App.tsx",
-                lineNumber: 58,
-                columnNumber: 38
-            }, this),
-            currentResult.description && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: currentResult.description
-            }, void 0, false, {
-                fileName: "src/App.tsx",
-                lineNumber: 59,
-                columnNumber: 39
-            }, this)
-        ]
-    }, void 0, true);
+    if (currentResult) {
+        const resultContent = (0, _results.getResultById)(currentResult.id);
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "pageTitle libreBaskerville",
+                    children: [
+                        "You're looking at a ",
+                        currentResult.common
+                    ]
+                }, void 0, true, {
+                    fileName: "src/App.tsx",
+                    lineNumber: 59,
+                    columnNumber: 9
+                }, this),
+                currentResult.scientific && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    className: "subtitle libreBaskerville italic",
+                    children: [
+                        "(",
+                        currentResult.scientific,
+                        ")"
+                    ]
+                }, void 0, true, {
+                    fileName: "src/App.tsx",
+                    lineNumber: 60,
+                    columnNumber: 38
+                }, this),
+                resultContent && resultContent
+            ]
+        }, void 0, true, {
+            fileName: "src/App.tsx",
+            lineNumber: 58,
+            columnNumber: 7
+        }, this);
+    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "pageTitle libreBodoni",
+                className: "pageTitle libreBaskerville",
                 children: "Conifers of Oregon"
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 66,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                className: "subtitle libreBodoni",
+                className: "subtitle libreBaskerville",
                 children: "What do you see?"
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 67,
+                lineNumber: 69,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -19178,23 +19181,23 @@ function App() {
                             ...option
                         }, void 0, false, {
                             fileName: "src/App.tsx",
-                            lineNumber: 75,
+                            lineNumber: 77,
                             columnNumber: 13
                         }, this)
                     }, option.id, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 70,
+                        lineNumber: 72,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 68,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.tsx",
-        lineNumber: 65,
+        lineNumber: 67,
         columnNumber: 5
     }, this);
 }
@@ -19208,11 +19211,11 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./key.json":"k1Svq","./results.json":"63pjB","react":"jMk1U","./components/Option":"6W7ns","./App.css":"6n0o6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"k1Svq":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./key.json":"k1Svq","./results.json":"63pjB","react":"jMk1U","./components/Option":"6W7ns","./App.css":"6n0o6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/results":"bOo5g"}],"k1Svq":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("[{\"id\":\"1\",\"options\":[{\"id\":\"1a\",\"title\":\"needle-like leaves\",\"destination\":\"2\",\"is_final\":false,\"img\":\"needles\"},{\"id\":\"1b\",\"title\":\"scale-like leaves\",\"hint\":\"leaves are flattened and overlapping\",\"destination\":\"3\",\"is_final\":false,\"img\":\"scales\"}]},{\"id\":\"2\",\"options\":[{\"id\":\"2a\",\"title\":\"needles clustered\",\"destination\":\"4\",\"is_final\":false,\"img\":\"bundles\"},{\"id\":\"2b\",\"title\":\"needles not clustered\",\"destination\":\"5\",\"is_final\":false,\"img\":\"single\"}]},{\"id\":\"3\",\"options\":[{\"id\":\"3a\",\"title\":\"all leaves short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"3b\",\"title\":\"some leaves not sharp\",\"destination\":\"6\",\"is_final\":false}]},{\"id\":\"4\",\"options\":[{\"id\":\"4a\",\"title\":\"clusters of 2-5 needles\",\"destination\":\"pine\",\"is_final\":true,\"img\":\"bundles\"},{\"id\":\"4b\",\"title\":\"clusters greater than 10\",\"destination\":\"7\",\"is_final\":false,\"img\":\"ten_needles\"}]},{\"id\":\"5\",\"options\":[{\"id\":\"5a\",\"title\":\"needles short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"5b\",\"title\":\"needles longer than 1/2\\\"\",\"destination\":\"8\",\"is_final\":false,\"img\":\"soft_needles\"}]},{\"id\":\"6\",\"options\":[{\"id\":\"6a\",\"title\":\"cones round\",\"destination\":\"9\",\"is_final\":false},{\"id\":\"6b\",\"title\":\"cones not round\",\"destination\":\"10\",\"is_final\":false}]},{\"id\":\"7\",\"options\":[{\"id\":\"7a\",\"title\":\"needles soft & deciduous\",\"help\":\"deciduous refers to needles or leaves that fall off annually and regrow\",\"destination\":\"larch\",\"is_final\":true,\"img\":\"soft_needles\"},{\"id\":\"7b\",\"title\":\"needles stiff & evergreen\",\"destination\":\"true_cedar\",\"is_final\":true}]},{\"id\":\"8\",\"options\":[{\"id\":\"8a\",\"title\":\"tiny pegs on twigs\",\"destination\":\"11\",\"is_final\":false},{\"id\":\"8b\",\"title\":\"no tiny pegs on twigs\",\"destination\":\"12\",\"is_final\":false}]},{\"id\":\"9\",\"options\":[{\"id\":\"9a\",\"title\":\"mature cones small and leathery, green or blue\",\"destination\":\"juniper\",\"is_final\":true},{\"id\":\"9b\",\"title\":\"mature cones woody\",\"destination\":\"13\",\"is_final\":false}]},{\"id\":\"10\",\"options\":[{\"id\":\"10a\",\"title\":\"cones resemble rosebuds\",\"destination\":\"redcedar_arborvitae\",\"is_final\":true},{\"id\":\"10b\",\"title\":\"cones resemble duck's bill\",\"destination\":\"incense_cedar\",\"is_final\":true}]},{\"id\":\"11\",\"options\":[{\"id\":\"11a\",\"title\":\"pegs square, needles sharp\",\"destination\":\"spruce\",\"is_final\":true},{\"id\":\"11b\",\"title\":\"pegs rounded, needles blunt\",\"destination\":\"hemlock\",\"is_final\":true}]},{\"id\":\"12\",\"options\":[{\"id\":\"12a\",\"title\":\"buds large and pointed\",\"destination\":\"douglas_fir\",\"is_final\":true},{\"id\":\"12b\",\"title\":\"buds small and rounded?\",\"destination\":\"14\",\"is_final\":false}]},{\"id\":\"13\",\"options\":[{\"id\":\"13a\",\"title\":\"cones under 1/2 inch diameter\",\"destination\":\"white_cedar_alaska_cedar\",\"is_final\":true},{\"id\":\"13b\",\"title\":\"cones over 1/2 inch diameter\",\"destination\":\"cypress\",\"is_final\":true}]},{\"id\":\"14\",\"options\":[{\"id\":\"14a\",\"title\":\"terminal buds round and clustered\",\"destination\":\"true_fir\",\"is_final\":true},{\"id\":\"14b\",\"title\":\"terminal buds not clustered\",\"destination\":\"15\",\"is_final\":false}]},{\"id\":\"15\",\"options\":[{\"id\":\"15a\",\"title\":\"needles white underneath\",\"destination\":\"16\",\"is_final\":false},{\"id\":\"15b\",\"title\":\"needles green underneath\",\"destination\":\"yew\",\"is_final\":true}]},{\"id\":\"16\",\"options\":[{\"id\":\"16a\",\"title\":\"needles pointed\",\"destination\":\"redwood\",\"is_final\":true},{\"id\":\"16b\",\"title\":\"needles blunt\",\"destination\":\"hemlock\",\"is_final\":true}]}]");
 
 },{}],"63pjB":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse("[{\"id\":\"pine\",\"common\":\"Pine\",\"scientific\":\"Pinus\"},{\"id\":\"giant_sequoia\",\"scientific\":\"Sequoiadendron giganteum\",\"common\":\"Giant Sequoia\"},{\"id\":\"larch\",\"scientific\":\"Larix\",\"common\":\"Larch\"},{\"id\":\"true_cedar\",\"scientific\":\"Cedrus\",\"common\":\"True Cedar\"},{\"id\":\"juniper\",\"scientific\":\"Juniperus\",\"common\":\"Juniper\"},{\"id\":\"redcedar_arborvitae\",\"scientific\":\"Thuja\",\"common\":\"Redcedar/Arborvitae\"},{\"id\":\"incense_cedar\",\"scientific\":\"Calocedrus\",\"common\":\"Incense-cedar\"},{\"id\":\"spruce\",\"scientific\":\"Picea\",\"common\":\"Spruce\"},{\"id\":\"hemlock\",\"scientific\":\"Tsuga\",\"common\":\"Hemlock\"},{\"id\":\"douglas_fir\",\"scientific\":\"Pseudotsuga\",\"common\":\"Douglas-fir\"},{\"id\":\"white_cedar_alaska_cedar\",\"scientific\":\"\",\"common\":\"White Cedar/Alaska Cedar\"},{\"id\":\"cypress\",\"scientific\":\"\",\"common\":\"Cypress\"},{\"id\":\"true_fir\",\"scientific\":\"\",\"common\":\"True Fir\"},{\"id\":\"yew\",\"scientific\":\"\",\"common\":\"Yew\"},{\"id\":\"redwood\",\"scientific\":\"\",\"common\":\"Redwood\"},{\"id\":\"hemlock\",\"scientific\":\"\",\"common\":\"Hemlock\"}]");
+module.exports = JSON.parse("[{\"id\":\"pine\",\"common\":\"Pine\",\"scientific\":\"Pinus\"},{\"id\":\"giant_sequoia\",\"scientific\":\"Sequoiadendron giganteum\",\"common\":\"Giant Sequoia\"},{\"id\":\"larch\",\"scientific\":\"Larix\",\"common\":\"Larch\"},{\"id\":\"true_cedar\",\"scientific\":\"Cedrus\",\"common\":\"True Cedar\"},{\"id\":\"juniper\",\"scientific\":\"Juniperus\",\"common\":\"Juniper\"},{\"id\":\"redcedar_arborvitae\",\"scientific\":\"Thuja\",\"common\":\"Redcedar/Arborvitae\"},{\"id\":\"incense_cedar\",\"scientific\":\"Calocedrus\",\"common\":\"Incense-cedar\"},{\"id\":\"spruce\",\"scientific\":\"Picea\",\"common\":\"Spruce\"},{\"id\":\"hemlock\",\"scientific\":\"Tsuga\",\"common\":\"Hemlock\"},{\"id\":\"douglas_fir\",\"scientific\":\"Pseudotsuga\",\"common\":\"Douglas-fir\"},{\"id\":\"white_cedar_alaska_cedar\",\"scientific\":\"\",\"common\":\"White Cedar/Alaska Cedar\"},{\"id\":\"cypress\",\"scientific\":\"\",\"common\":\"Cypress\"},{\"id\":\"true_fir\",\"scientific\":\"\",\"common\":\"True Fir\"},{\"id\":\"yew\",\"scientific\":\"Taxus\",\"common\":\"Yew\"},{\"id\":\"redwood\",\"scientific\":\"\",\"common\":\"Redwood\"},{\"id\":\"hemlock\",\"scientific\":\"\",\"common\":\"Hemlock\"}]");
 
 },{}],"6W7ns":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$5363 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -19299,7 +19302,7 @@ const imageKey = {
     "soft_needles": (0, _softNeedlesPngDefault.default)
 };
 
-},{"url:./img/needles.jpg":"82l7s","url:./img/scales.jpg":"jBJJY","url:./img/bundles.png":"jlO73","url:./img/single_needles.png":"jCRmI","url:./img/ten_needles.png":"7Sl2d","url:./img/sequoia.png":"c9cC9","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:./img/soft_needles.png":"jIzHZ"}],"82l7s":[function(require,module,exports,__globalThis) {
+},{"url:./img/needles.jpg":"82l7s","url:./img/scales.jpg":"jBJJY","url:./img/bundles.png":"jlO73","url:./img/single_needles.png":"jCRmI","url:./img/ten_needles.png":"7Sl2d","url:./img/sequoia.png":"c9cC9","url:./img/soft_needles.png":"jIzHZ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"82l7s":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("needles.d1f9618b.jpg") + "?" + Date.now();
 
 },{}],"jBJJY":[function(require,module,exports,__globalThis) {
@@ -19316,6 +19319,9 @@ module.exports = module.bundle.resolve("ten_needles.a61644d8.png") + "?" + Date.
 
 },{}],"c9cC9":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("sequoia.aa2126e8.png") + "?" + Date.now();
+
+},{}],"jIzHZ":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("soft_needles.289f3ca0.png") + "?" + Date.now();
 
 },{}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
@@ -19346,9 +19352,6 @@ exports.export = function(dest, destName, get) {
         get: get
     });
 };
-
-},{}],"jIzHZ":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("soft_needles.289f3ca0.png") + "?" + Date.now();
 
 },{}],"hDZcd":[function() {},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
@@ -21628,6 +21631,158 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6n0o6":[function() {},{}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6n0o6":[function() {},{}],"bOo5g":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$7783 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$7783.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7783.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "getResultById", ()=>getResultById);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _yew = require("./yew");
+const resultsKey = {
+    yew: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _yew.Yew), {}, void 0, false, {
+        fileName: "src/components/results/index.tsx",
+        lineNumber: 4,
+        columnNumber: 10
+    }, undefined)
+};
+const getResultById = (id)=>{
+    return resultsKey[id] ? resultsKey[id] : null;
+};
+
+  $parcel$ReactRefreshHelpers$7783.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","./yew":"fZfJO","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"fZfJO":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c6da = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$c6da.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c6da.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Yew", ()=>Yew);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Yew() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "result",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "columns",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "imageColumn"
+                }, void 0, false, {
+                    fileName: "src/components/results/yew.tsx",
+                    lineNumber: 6,
+                    columnNumber: 13
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "textColumn",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            children: "Quick facts"
+                        }, void 0, false, {
+                            fileName: "src/components/results/yew.tsx",
+                            lineNumber: 10,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Yew is a genus of about 8 species"
+                                }, void 0, false, {
+                                    fileName: "src/components/results/yew.tsx",
+                                    lineNumber: 12,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "They are native to North America, Europe and Asia"
+                                }, void 0, false, {
+                                    fileName: "src/components/results/yew.tsx",
+                                    lineNumber: 13,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "It's fruit is not actually a cone, but an aril"
+                                }, void 0, false, {
+                                    fileName: "src/components/results/yew.tsx",
+                                    lineNumber: 14,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Only one species, the Pacific Yew, is Native to the Northwest"
+                                }, void 0, false, {
+                                    fileName: "src/components/results/yew.tsx",
+                                    lineNumber: 15,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/results/yew.tsx",
+                            lineNumber: 11,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            children: [
+                                "Pacific Yew (",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "italic",
+                                    children: "Taxus brevifolia"
+                                }, void 0, false, {
+                                    fileName: "src/components/results/yew.tsx",
+                                    lineNumber: 17,
+                                    columnNumber: 34
+                                }, this),
+                                ")"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/results/yew.tsx",
+                            lineNumber: 17,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "The pacific yew... write some more!"
+                        }, void 0, false, {
+                            fileName: "src/components/results/yew.tsx",
+                            lineNumber: 18,
+                            columnNumber: 17
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/results/yew.tsx",
+                    lineNumber: 9,
+                    columnNumber: 13
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/results/yew.tsx",
+            lineNumber: 5,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/results/yew.tsx",
+        lineNumber: 4,
+        columnNumber: 5
+    }, this);
+}
+_c = Yew;
+var _c;
+$RefreshReg$(_c, "Yew");
+
+  $parcel$ReactRefreshHelpers$c6da.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=conifers-of-oregon.6efbc4f8.js.map
