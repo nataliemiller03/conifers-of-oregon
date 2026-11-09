@@ -1,16 +1,18 @@
 
 .option img {
- max-width: 300px;
+    max-width: 300px;
 }
 
 .optionTitle {
     padding: 7px 15px;
-    color: #344e41;
+    color: #202f24;
+    max-width: 300px;
+    box-sizing: border-box;
 }
 
 .imageWrapper {
     min-height: 300px;
     min-width: 300px;
     max-height: 300px;
-    background-color: #344e41;
+    background-color: #202f24;
 }

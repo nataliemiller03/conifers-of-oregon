@@ -5,6 +5,7 @@
   "version": "0.0.0",
   "source": "src/index.html",
   "scripts": {
+    "prestart": "rm -rf dist .parcel-cache",
     "start": "parcel",
     "build": "parcel build",
     "predeploy": "parcel build src/index.html --public-url /conifers-of-oregon/",

@@ -3,6 +3,7 @@ import keyData from './key.json';
 import resultsData from './results.json'
 import { useEffect, useState } from "react";
 import { OptionComponent } from './components/Option';
+import { getResultById } from './components/results';
 import './App.css';
 
 function readStepFromUrl() {
@@ -52,19 +53,20 @@ export function App() {
   }
 
   if (currentResult) {
+    const resultContent = getResultById(currentResult.id)
     return (
-      <>
-        <h1 className="pageTitle libreBodoni">You're looking at a {currentResult.common}</h1>
-        {currentResult.scientific && <h2 className="subtitle libreBodoni italic">({currentResult.scientific})</h2>}
-        {currentResult.description && <p>{currentResult.description}</p>}
-      </>
+      <div className="container">
+        <h1 className="pageTitle libreBaskerville">You're looking at a {currentResult.common}</h1>
+        {currentResult.scientific && <h2 className="subtitle libreBaskerville italic">({currentResult.scientific})</h2>}
+        {resultContent && resultContent}
+      </div>
     );
   }
 
   return (
     <div className="container">
-      <h1 className="pageTitle libreBodoni">Conifers of Oregon</h1>
-      <h2 className="subtitle libreBodoni">What do you see?</h2>
+      <h1 className="pageTitle libreBaskerville">Conifers of Oregon</h1>
+      <h2 className="subtitle libreBaskerville">What do you see?</h2>
       <div className="options">
         {currentStep && currentStep.options.map(option => (
           <button

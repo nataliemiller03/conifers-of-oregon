@@ -1,24 +1,30 @@
 html, body {
-    background-color: #3a5a40;
+    background-color: #202f24;
+    background-image: url('./img/background.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
-.libreBodoni {
-  font-family: "Libre Bodoni", serif;
+.libreBaskerville {
+  font-family: "Libre Baskerville", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 .pageTitle {
-    color: #dad7cd;
+    color: #e4e2db;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 0;
     margin-bottom: 1.5rem;
     font-size: 4rem;
-    
 }
 
 .subtitle {
-    color: #dad7cd;
+    color: #e4e2db;
     text-align: center;
     font-size: 1.75rem;
     margin-bottom: 2.5rem;
@@ -31,14 +37,14 @@ html, body {
 .container {
     width: 100%;
     max-width: 100%;
-    padding: 0 70px;
+    padding: 70px;
     box-sizing: border-box;
 }
 
 .options {
     display: flex;
     gap: 15px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -48,7 +54,7 @@ html, body {
     border: 0;
     outline: 0;
     cursor: pointer;
-    background-color: #dad7cd;
+    background-color: #e4e2db;
     padding: 0;
     margin: 0;
 }
@@ -56,5 +62,16 @@ html, body {
 @media (width < 700px) {
     .options {
         flex-direction: column;
+        align-items: center;
+    }
+    .pageTitle {
+        font-size: 2.5rem;
+    }
+    .subTitle {
+        font-size: 1rem;
+    }
+    html, body {
+        background-size: cover;
+        background-position: left;
     }
 }
