@@ -52,7 +52,8 @@
                 "id": "3b",
                 "title": "some leaves not sharp",
                 "destination": "6",
-                "is_final": false
+                "is_final": false,
+                "img": "soft_scales"
             }
         ]
     },
@@ -101,12 +102,14 @@
                 "id": "6a",
                 "title": "cones round",
                 "destination": "9",
+                "img": "alaska_cedar_cone",
                 "is_final": false
             },
             {
                 "id": "6b",
                 "title": "cones not round",
                 "destination": "10",
+                "img": "incense_cedar_cone",
                 "is_final": false
             }
         ]
@@ -126,6 +129,7 @@
                 "id": "7b",
                 "title": "needles stiff & evergreen",
                 "destination": "true_cedar",
+                "img": "true_cedar",
                 "is_final": true
             }
         ]
@@ -154,6 +158,7 @@
                 "id": "9a",
                 "title": "mature cones small and leathery, green or blue",
                 "destination": "juniper",
+                "img": "juniper_cones",
                 "is_final": true
             },
             {
@@ -171,12 +176,14 @@
                 "id": "10a",
                 "title": "cones resemble rosebuds",
                 "destination": "redcedar_arborvitae",
-                "is_final": true
+                "is_final": true,
+                "img": "rosebud_cones"
             },
             {
                 "id": "10b",
                 "title": "cones resemble duck's bill",
                 "destination": "incense_cedar",
+                "img": "incense_cedar_cone",
                 "is_final": true
             }
         ]

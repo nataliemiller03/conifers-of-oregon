@@ -72,6 +72,6 @@ html, body {
     }
     html, body {
         background-size: cover;
-        background-position: left;
+        background-position: left bottom;
     }
 }
