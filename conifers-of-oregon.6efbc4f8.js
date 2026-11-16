@@ -19211,8 +19211,8 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./key.json":"k1Svq","./results.json":"63pjB","react":"jMk1U","./components/Option":"6W7ns","./App.css":"6n0o6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/results":"bOo5g"}],"k1Svq":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse("[{\"id\":\"1\",\"options\":[{\"id\":\"1a\",\"title\":\"needle-like leaves\",\"destination\":\"2\",\"is_final\":false,\"img\":\"needles\"},{\"id\":\"1b\",\"title\":\"scale-like leaves\",\"hint\":\"leaves are flattened and overlapping\",\"destination\":\"3\",\"is_final\":false,\"img\":\"scales\"}]},{\"id\":\"2\",\"options\":[{\"id\":\"2a\",\"title\":\"needles clustered\",\"destination\":\"4\",\"is_final\":false,\"img\":\"bundles\"},{\"id\":\"2b\",\"title\":\"needles not clustered\",\"destination\":\"5\",\"is_final\":false,\"img\":\"single\"}]},{\"id\":\"3\",\"options\":[{\"id\":\"3a\",\"title\":\"all leaves short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"3b\",\"title\":\"some leaves not sharp\",\"destination\":\"6\",\"is_final\":false}]},{\"id\":\"4\",\"options\":[{\"id\":\"4a\",\"title\":\"clusters of 2-5 needles\",\"destination\":\"pine\",\"is_final\":true,\"img\":\"bundles\"},{\"id\":\"4b\",\"title\":\"clusters greater than 10\",\"destination\":\"7\",\"is_final\":false,\"img\":\"ten_needles\"}]},{\"id\":\"5\",\"options\":[{\"id\":\"5a\",\"title\":\"needles short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"5b\",\"title\":\"needles longer than 1/2\\\"\",\"destination\":\"8\",\"is_final\":false,\"img\":\"soft_needles\"}]},{\"id\":\"6\",\"options\":[{\"id\":\"6a\",\"title\":\"cones round\",\"destination\":\"9\",\"is_final\":false},{\"id\":\"6b\",\"title\":\"cones not round\",\"destination\":\"10\",\"is_final\":false}]},{\"id\":\"7\",\"options\":[{\"id\":\"7a\",\"title\":\"needles soft & deciduous\",\"help\":\"deciduous refers to needles or leaves that fall off annually and regrow\",\"destination\":\"larch\",\"is_final\":true,\"img\":\"soft_needles\"},{\"id\":\"7b\",\"title\":\"needles stiff & evergreen\",\"destination\":\"true_cedar\",\"is_final\":true}]},{\"id\":\"8\",\"options\":[{\"id\":\"8a\",\"title\":\"tiny pegs on twigs\",\"destination\":\"11\",\"is_final\":false},{\"id\":\"8b\",\"title\":\"no tiny pegs on twigs\",\"destination\":\"12\",\"is_final\":false}]},{\"id\":\"9\",\"options\":[{\"id\":\"9a\",\"title\":\"mature cones small and leathery, green or blue\",\"destination\":\"juniper\",\"is_final\":true},{\"id\":\"9b\",\"title\":\"mature cones woody\",\"destination\":\"13\",\"is_final\":false}]},{\"id\":\"10\",\"options\":[{\"id\":\"10a\",\"title\":\"cones resemble rosebuds\",\"destination\":\"redcedar_arborvitae\",\"is_final\":true},{\"id\":\"10b\",\"title\":\"cones resemble duck's bill\",\"destination\":\"incense_cedar\",\"is_final\":true}]},{\"id\":\"11\",\"options\":[{\"id\":\"11a\",\"title\":\"pegs square, needles sharp\",\"destination\":\"spruce\",\"is_final\":true},{\"id\":\"11b\",\"title\":\"pegs rounded, needles blunt\",\"destination\":\"hemlock\",\"is_final\":true}]},{\"id\":\"12\",\"options\":[{\"id\":\"12a\",\"title\":\"buds large and pointed\",\"destination\":\"douglas_fir\",\"is_final\":true},{\"id\":\"12b\",\"title\":\"buds small and rounded?\",\"destination\":\"14\",\"is_final\":false}]},{\"id\":\"13\",\"options\":[{\"id\":\"13a\",\"title\":\"cones under 1/2 inch diameter\",\"destination\":\"white_cedar_alaska_cedar\",\"is_final\":true},{\"id\":\"13b\",\"title\":\"cones over 1/2 inch diameter\",\"destination\":\"cypress\",\"is_final\":true}]},{\"id\":\"14\",\"options\":[{\"id\":\"14a\",\"title\":\"terminal buds round and clustered\",\"destination\":\"true_fir\",\"is_final\":true},{\"id\":\"14b\",\"title\":\"terminal buds not clustered\",\"destination\":\"15\",\"is_final\":false}]},{\"id\":\"15\",\"options\":[{\"id\":\"15a\",\"title\":\"needles white underneath\",\"destination\":\"16\",\"is_final\":false},{\"id\":\"15b\",\"title\":\"needles green underneath\",\"destination\":\"yew\",\"is_final\":true}]},{\"id\":\"16\",\"options\":[{\"id\":\"16a\",\"title\":\"needles pointed\",\"destination\":\"redwood\",\"is_final\":true},{\"id\":\"16b\",\"title\":\"needles blunt\",\"destination\":\"hemlock\",\"is_final\":true}]}]");
+},{"react/jsx-dev-runtime":"dVPUn","./key.json":"k1Svq","./results.json":"63pjB","react":"jMk1U","./components/Option":"6W7ns","./components/results":"bOo5g","./App.css":"6n0o6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"k1Svq":[function(require,module,exports,__globalThis) {
+module.exports = JSON.parse("[{\"id\":\"1\",\"options\":[{\"id\":\"1a\",\"title\":\"needle-like leaves\",\"destination\":\"2\",\"is_final\":false,\"img\":\"needles\"},{\"id\":\"1b\",\"title\":\"scale-like leaves\",\"hint\":\"leaves are flattened and overlapping\",\"destination\":\"3\",\"is_final\":false,\"img\":\"scales\"}]},{\"id\":\"2\",\"options\":[{\"id\":\"2a\",\"title\":\"needles clustered\",\"destination\":\"4\",\"is_final\":false,\"img\":\"bundles\"},{\"id\":\"2b\",\"title\":\"needles not clustered\",\"destination\":\"5\",\"is_final\":false,\"img\":\"single\"}]},{\"id\":\"3\",\"options\":[{\"id\":\"3a\",\"title\":\"all leaves short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"3b\",\"title\":\"some leaves not sharp\",\"destination\":\"6\",\"is_final\":false,\"img\":\"soft_scales\"}]},{\"id\":\"4\",\"options\":[{\"id\":\"4a\",\"title\":\"clusters of 2-5 needles\",\"destination\":\"pine\",\"is_final\":true,\"img\":\"bundles\"},{\"id\":\"4b\",\"title\":\"clusters greater than 10\",\"destination\":\"7\",\"is_final\":false,\"img\":\"ten_needles\"}]},{\"id\":\"5\",\"options\":[{\"id\":\"5a\",\"title\":\"needles short and sharp\",\"destination\":\"giant_sequoia\",\"is_final\":true,\"img\":\"sequoia\"},{\"id\":\"5b\",\"title\":\"needles longer than 1/2\\\"\",\"destination\":\"8\",\"is_final\":false,\"img\":\"soft_needles\"}]},{\"id\":\"6\",\"options\":[{\"id\":\"6a\",\"title\":\"cones round\",\"destination\":\"9\",\"img\":\"alaska_cedar_cone\",\"is_final\":false},{\"id\":\"6b\",\"title\":\"cones not round\",\"destination\":\"10\",\"img\":\"incense_cedar_cone\",\"is_final\":false}]},{\"id\":\"7\",\"options\":[{\"id\":\"7a\",\"title\":\"needles soft & deciduous\",\"help\":\"deciduous refers to needles or leaves that fall off annually and regrow\",\"destination\":\"larch\",\"is_final\":true,\"img\":\"soft_needles\"},{\"id\":\"7b\",\"title\":\"needles stiff & evergreen\",\"destination\":\"true_cedar\",\"img\":\"true_cedar\",\"is_final\":true}]},{\"id\":\"8\",\"options\":[{\"id\":\"8a\",\"title\":\"tiny pegs on twigs\",\"destination\":\"11\",\"is_final\":false},{\"id\":\"8b\",\"title\":\"no tiny pegs on twigs\",\"destination\":\"12\",\"is_final\":false}]},{\"id\":\"9\",\"options\":[{\"id\":\"9a\",\"title\":\"mature cones small and leathery, green or blue\",\"destination\":\"juniper\",\"img\":\"juniper_cones\",\"is_final\":true},{\"id\":\"9b\",\"title\":\"mature cones woody\",\"destination\":\"13\",\"is_final\":false}]},{\"id\":\"10\",\"options\":[{\"id\":\"10a\",\"title\":\"cones resemble rosebuds\",\"destination\":\"redcedar_arborvitae\",\"is_final\":true,\"img\":\"rosebud_cones\"},{\"id\":\"10b\",\"title\":\"cones resemble duck's bill\",\"destination\":\"incense_cedar\",\"img\":\"incense_cedar_cone\",\"is_final\":true}]},{\"id\":\"11\",\"options\":[{\"id\":\"11a\",\"title\":\"pegs square, needles sharp\",\"destination\":\"spruce\",\"is_final\":true},{\"id\":\"11b\",\"title\":\"pegs rounded, needles blunt\",\"destination\":\"hemlock\",\"is_final\":true}]},{\"id\":\"12\",\"options\":[{\"id\":\"12a\",\"title\":\"buds large and pointed\",\"destination\":\"douglas_fir\",\"is_final\":true},{\"id\":\"12b\",\"title\":\"buds small and rounded?\",\"destination\":\"14\",\"is_final\":false}]},{\"id\":\"13\",\"options\":[{\"id\":\"13a\",\"title\":\"cones under 1/2 inch diameter\",\"destination\":\"white_cedar_alaska_cedar\",\"is_final\":true},{\"id\":\"13b\",\"title\":\"cones over 1/2 inch diameter\",\"destination\":\"cypress\",\"is_final\":true}]},{\"id\":\"14\",\"options\":[{\"id\":\"14a\",\"title\":\"terminal buds round and clustered\",\"destination\":\"true_fir\",\"is_final\":true},{\"id\":\"14b\",\"title\":\"terminal buds not clustered\",\"destination\":\"15\",\"is_final\":false}]},{\"id\":\"15\",\"options\":[{\"id\":\"15a\",\"title\":\"needles white underneath\",\"destination\":\"16\",\"is_final\":false},{\"id\":\"15b\",\"title\":\"needles green underneath\",\"destination\":\"yew\",\"is_final\":true}]},{\"id\":\"16\",\"options\":[{\"id\":\"16a\",\"title\":\"needles pointed\",\"destination\":\"redwood\",\"is_final\":true},{\"id\":\"16b\",\"title\":\"needles blunt\",\"destination\":\"hemlock\",\"is_final\":true}]}]");
 
 },{}],"63pjB":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("[{\"id\":\"pine\",\"common\":\"Pine\",\"scientific\":\"Pinus\"},{\"id\":\"giant_sequoia\",\"scientific\":\"Sequoiadendron giganteum\",\"common\":\"Giant Sequoia\"},{\"id\":\"larch\",\"scientific\":\"Larix\",\"common\":\"Larch\"},{\"id\":\"true_cedar\",\"scientific\":\"Cedrus\",\"common\":\"True Cedar\"},{\"id\":\"juniper\",\"scientific\":\"Juniperus\",\"common\":\"Juniper\"},{\"id\":\"redcedar_arborvitae\",\"scientific\":\"Thuja\",\"common\":\"Redcedar/Arborvitae\"},{\"id\":\"incense_cedar\",\"scientific\":\"Calocedrus\",\"common\":\"Incense-cedar\"},{\"id\":\"spruce\",\"scientific\":\"Picea\",\"common\":\"Spruce\"},{\"id\":\"hemlock\",\"scientific\":\"Tsuga\",\"common\":\"Hemlock\"},{\"id\":\"douglas_fir\",\"scientific\":\"Pseudotsuga\",\"common\":\"Douglas-fir\"},{\"id\":\"white_cedar_alaska_cedar\",\"scientific\":\"\",\"common\":\"White Cedar/Alaska Cedar\"},{\"id\":\"cypress\",\"scientific\":\"\",\"common\":\"Cypress\"},{\"id\":\"true_fir\",\"scientific\":\"\",\"common\":\"True Fir\"},{\"id\":\"yew\",\"scientific\":\"Taxus\",\"common\":\"Yew\"},{\"id\":\"redwood\",\"scientific\":\"\",\"common\":\"Redwood\"},{\"id\":\"hemlock\",\"scientific\":\"\",\"common\":\"Hemlock\"}]");
@@ -19292,6 +19292,18 @@ var _sequoiaPng = require("url:./img/sequoia.png");
 var _sequoiaPngDefault = parcelHelpers.interopDefault(_sequoiaPng);
 var _softNeedlesPng = require("url:./img/soft_needles.png");
 var _softNeedlesPngDefault = parcelHelpers.interopDefault(_softNeedlesPng);
+var _softScalesPng = require("url:./img/soft_scales.png");
+var _softScalesPngDefault = parcelHelpers.interopDefault(_softScalesPng);
+var _incenseCedarConePng = require("url:./img/incense_cedar_cone.png");
+var _incenseCedarConePngDefault = parcelHelpers.interopDefault(_incenseCedarConePng);
+var _rosebudConesPng = require("url:./img/rosebud_cones.png");
+var _rosebudConesPngDefault = parcelHelpers.interopDefault(_rosebudConesPng);
+var _trueCedarPng = require("url:./img/true_cedar.png");
+var _trueCedarPngDefault = parcelHelpers.interopDefault(_trueCedarPng);
+var _alaskaCedarConePng = require("url:./img/alaska_cedar_cone.png");
+var _alaskaCedarConePngDefault = parcelHelpers.interopDefault(_alaskaCedarConePng);
+var _juniperConesPng = require("url:./img/juniper_cones.png");
+var _juniperConesPngDefault = parcelHelpers.interopDefault(_juniperConesPng);
 const imageKey = {
     "needles": (0, _needlesJpgDefault.default),
     "scales": (0, _scalesJpgDefault.default),
@@ -19299,10 +19311,16 @@ const imageKey = {
     "single": (0, _singleNeedlesPngDefault.default),
     "ten_needles": (0, _tenNeedlesPngDefault.default),
     "sequoia": (0, _sequoiaPngDefault.default),
-    "soft_needles": (0, _softNeedlesPngDefault.default)
+    "soft_needles": (0, _softNeedlesPngDefault.default),
+    "soft_scales": (0, _softScalesPngDefault.default),
+    "incense_cedar_cone": (0, _incenseCedarConePngDefault.default),
+    "rosebud_cones": (0, _rosebudConesPngDefault.default),
+    "true_cedar": (0, _trueCedarPngDefault.default),
+    "alaska_cedar_cone": (0, _alaskaCedarConePngDefault.default),
+    "juniper_cones": (0, _juniperConesPngDefault.default)
 };
 
-},{"url:./img/needles.jpg":"82l7s","url:./img/scales.jpg":"jBJJY","url:./img/bundles.png":"jlO73","url:./img/single_needles.png":"jCRmI","url:./img/ten_needles.png":"7Sl2d","url:./img/sequoia.png":"c9cC9","url:./img/soft_needles.png":"jIzHZ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"82l7s":[function(require,module,exports,__globalThis) {
+},{"url:./img/needles.jpg":"82l7s","url:./img/scales.jpg":"jBJJY","url:./img/bundles.png":"jlO73","url:./img/single_needles.png":"jCRmI","url:./img/ten_needles.png":"7Sl2d","url:./img/sequoia.png":"c9cC9","url:./img/soft_needles.png":"jIzHZ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:./img/soft_scales.png":"f3X4q","url:./img/incense_cedar_cone.png":"kbE1S","url:./img/rosebud_cones.png":"eoAkX","url:./img/true_cedar.png":"iNyRk","url:./img/alaska_cedar_cone.png":"8m4YV","url:./img/juniper_cones.png":"gHvzZ"}],"82l7s":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("needles.d1f9618b.jpg") + "?" + Date.now();
 
 },{}],"jBJJY":[function(require,module,exports,__globalThis) {
@@ -19352,6 +19370,24 @@ exports.export = function(dest, destName, get) {
         get: get
     });
 };
+
+},{}],"f3X4q":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("soft_scales.1ce16205.png") + "?" + Date.now();
+
+},{}],"kbE1S":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("incense_cedar_cone.6dba60b2.png") + "?" + Date.now();
+
+},{}],"eoAkX":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("rosebud_cones.d114b055.png") + "?" + Date.now();
+
+},{}],"iNyRk":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("true_cedar.8f69e400.png") + "?" + Date.now();
+
+},{}],"8m4YV":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("alaska_cedar_cone.3a52211e.png") + "?" + Date.now();
+
+},{}],"gHvzZ":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("juniper_cones.2b56c1f9.png") + "?" + Date.now();
 
 },{}],"hDZcd":[function() {},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
@@ -21631,7 +21667,7 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6n0o6":[function() {},{}],"bOo5g":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"bOo5g":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$7783 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$7783.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -21783,6 +21819,6 @@ $RefreshReg$(_c, "Yew");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6n0o6":[function() {},{}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=conifers-of-oregon.6efbc4f8.js.map
